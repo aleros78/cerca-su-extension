@@ -1,0 +1,23 @@
+{
+  "manifest_version": 3,
+  "name": "Cerca su… (Context Menu)",
+  "description": "Aggiunge 'Cerca su…' al menu tasto destro per cercare il testo selezionato su servizi configurabili.",
+  "version": "1.0.0",
+  "permissions": ["contextMenus", "storage"],
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "action": {
+    "default_title": "Cerca su…",
+    "default_popup": "options.html"
+  },
+  "options_ui": {
+    "page": "options.html",
+    "open_in_tab": true
+  },
+  "background": {
+    "service_worker": "service_worker.js"
+  }
+}

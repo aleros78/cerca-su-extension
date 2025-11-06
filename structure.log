@@ -1,0 +1,14 @@
+
+
+// =============================
+// Struttura delle cartelle suggerita
+// =============================
+// /cerca-su-extension
+//   ├─ manifest.json
+//   ├─ service_worker.js
+//   ├─ options.html
+//   ├─ options.js
+//   └─ /icons
+//       ├─ icon16.png
+//       ├─ icon48.png
+//       └─ icon128.png
